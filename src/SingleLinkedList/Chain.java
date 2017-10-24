@@ -70,10 +70,10 @@ public class Chain implements LinearList{
                 q = q.next;
             }
             removedElement = q.next.element;
-            q.next = q.next.next;
-        }
+            q.next = q.next.next;        }
         size--;
-        return removedElement;
+        return removedElement
+;
     }
     @Override
     public void add(int index, Object theElement) {
