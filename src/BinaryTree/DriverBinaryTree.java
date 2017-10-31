@@ -18,9 +18,11 @@ public class DriverBinaryTree {
         bt.inorder();
         System.out.println("");
         BinaryTree ba = new BinaryTree();
+        //ClonetoPostOrder
         System.out.println("ClonetoPostOrder");
         ba.cloneToPostOrder(bt);
         System.out.println();
+        //ClonetoPreOrder
         System.out.println("ClonetoPreOrder");
         ba.cloneToPreOrder(bt);
         System.out.println();
